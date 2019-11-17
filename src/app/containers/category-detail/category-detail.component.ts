@@ -15,7 +15,7 @@ export class CategoryDetailComponent implements OnInit {
 
     ngOnInit() {
         this.route.params.pipe(pluck('name'), take(1)).subscribe(name => {
-            this.imagePaths = new Array(10).fill(null).map((x, i) => `assets/categories/${name}/${name}-${i}.jpg`);
+            this.imagePaths = new Array(10).fill(null).map((x, i) => `assets/categories/${name}/${name}-${i + 1}.jpg`);
         });
     }
     back() {

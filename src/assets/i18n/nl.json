@@ -6,5 +6,15 @@
     "enum_CategoriesEnum_fish": "Vis",
     "enum_CategoriesEnum_sheep": "Schaap",
     "enum_CategoriesEnum_cow": "Koe",
-    "enum_CategoriesEnum_dog": "Hond"
+    "enum_CategoriesEnum_dog": "Hond",
+    "enum_CategoriesEnum_bear": "Beer",
+    "enum_CategoriesEnum_elephant": "Olifant",
+    "enum_CategoriesEnum_goat": "Geit",
+    "enum_CategoriesEnum_hedgehog": "Egel",
+    "enum_CategoriesEnum_iguana": "Iguana",
+    "enum_CategoriesEnum_jellyfish": "Kwal",
+    "enum_CategoriesEnum_koala": "Koala",
+    "enum_CategoriesEnum_ostrich": "Struisvogel",
+    "enum_CategoriesEnum_penguin": "Pinguin",
+    "enum_CategoriesEnum_rinoceros": "Neushoorn"
 }
