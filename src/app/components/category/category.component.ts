@@ -8,8 +8,6 @@ import { DropdownItemDto } from '../../models/dropdown-item.dto';
 })
 export class CategoryComponent implements OnInit {
     @Input() category: DropdownItemDto;
-
-    @Output() selected = new EventEmitter();
     imagePath: string;
 
     ngOnInit(): void {
