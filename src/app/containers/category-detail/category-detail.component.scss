@@ -1,13 +1,15 @@
 .container {
     display: grid;
     grid-template-columns: repeat(2, calc((100vw - 18px) / 2));
-
     grid-gap: 10px;
 }
 .image-back {
     width: 30vw;
+    max-width: 200px;
     height: 30vw;
+    max-height: 200px;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
 }
