@@ -1,0 +1,10 @@
+{
+    "enum_CategoriesEnum_cat": "Kat",
+    "enum_CategoriesEnum_tiger": "Tijger",
+    "enum_CategoriesEnum_lion": "Leeuw",
+    "enum_CategoriesEnum_monkey": "Aap",
+    "enum_CategoriesEnum_fish": "Vis",
+    "enum_CategoriesEnum_sheep": "Schaap",
+    "enum_CategoriesEnum_cow": "Koe",
+    "enum_CategoriesEnum_dog": "Hond"
+}
