@@ -12,6 +12,7 @@ const routes: Routes = [
         path: 'animals/:name',
         component: CategoryDetailComponent,
     },
+    { path: '', redirectTo: '/animals', pathMatch: 'full' },
 ];
 
 @NgModule({

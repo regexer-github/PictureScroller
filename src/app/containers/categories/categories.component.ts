@@ -17,6 +17,6 @@ export class CategoriesComponent {
     }
     selectCategory(category: DropdownItemDto) {
         console.log('selected', category);
-        this.router.navigate([]);
+        this.router.navigate([`animals/${category.dataValueField}`]);
     }
 }

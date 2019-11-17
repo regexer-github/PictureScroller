@@ -1,1 +1,4 @@
-<p>category-detail works! {{ name$ | async }}</p>
+<img class="image-back" src="/src/assets/left-arrow.png" (click)="back()" />
+<div class="container">
+    <app-image-card *ngFor="let path of imagePaths" [imagePath]="path"></app-image-card>
+</div>
