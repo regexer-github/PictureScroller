@@ -1,0 +1,15 @@
+:host() {
+    position: relative;
+}
+.text {
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    bottom: 0;
+    text-align: center;
+}
