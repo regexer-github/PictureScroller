@@ -10,15 +10,26 @@ import { pluck, take } from 'rxjs/operators';
 })
 export class CategoryDetailComponent implements OnInit {
     imagePaths: string[];
+    animal$: Observable<string>;
 
     constructor(private route: ActivatedRoute, private router: Router) {}
 
     ngOnInit() {
-        this.route.params.pipe(pluck('name'), take(1)).subscribe(name => {
+        this.animal$ = this.route.params.pipe(pluck('name'), take(1));
+        this.animal$.subscribe(name => {
             this.imagePaths = new Array(10).fill(null).map((x, i) => `assets/categories/${name}/${name}-${i + 1}.jpg`);
         });
     }
     back() {
         this.router.navigate(['animals']);
+    }
+    playSound() {
+        this.animal$.subscribe(animal => this.playAnimalSound(animal));
+    }
+    playAnimalSound(animal: string) {
+        const audio = new Audio();
+        audio.src = `../../../assets/audio/${animal}.wav`;
+        audio.load();
+        audio.play();
     }
 }

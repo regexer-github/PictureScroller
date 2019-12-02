@@ -1,4 +1,4 @@
 <img class="image-back" src="assets/left-arrow.png" (click)="back()" />
 <div class="container">
-    <app-image-card *ngFor="let path of imagePaths" [imagePath]="path"></app-image-card>
+    <app-image-card *ngFor="let path of imagePaths" [imagePath]="path" (click)="playSound()"></app-image-card>
 </div>
