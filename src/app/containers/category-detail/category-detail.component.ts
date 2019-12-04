@@ -26,7 +26,7 @@ export class CategoryDetailComponent implements OnInit {
         this.animal$.subscribe(animal => this.playAnimalSound(animal));
     }
     playAnimalSound(animal: string) {
-        const audio = new Howl({ src: [`../../../assets/audio/${animal}.wav`] });
+        const audio = new Howl({ src: [`assets/audio/${animal}.wav`] });
         // audio.src = `../../../assets/audio/${animal}.wav`;
         // audio.load();
         audio.play();

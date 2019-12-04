@@ -6,7 +6,7 @@
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build --prod --base-href https://regexer-github.github.io/PictureScroller/",
-        "deploy": "npm run build && ngh --dir=dist/PictureScroller",
+        "deploy": "ngh --dir=dist/PictureScroller",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e"
